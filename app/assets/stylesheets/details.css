@@ -1,0 +1,65 @@
+.navbar-brand{
+    background:url('<%= asset_path("logo.png") %> ');
+    background-size: cover;
+    display:block;
+    height:40px;
+    margin:0 auto;
+    outline:none;
+    text-indent:-9999px;
+    width:200px;
+}
+
+.login img{
+	padding-top: 7px; 
+	width: 32px;
+}
+
+.carousel-inner .item img{
+	margin: auto;
+	height: 500px;
+}
+
+#spotlight img{
+	margin: auto;
+	height: 500px;
+}
+
+#services h2{
+	display: none;
+}
+
+#techno img{
+	height: 300px;
+}
+
+#spotlight .wrapper{
+  background:url(../img/tecnologia-banner.png) no-repeat center top;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+ }
+
+#spotlight h2{
+  display: none;
+}
+
+#spotlight p{
+  bottom: 20px;
+  color: white;
+  font-size:48px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#spotlight .highlight{
+  background:rgba(235,108,76,0.8); 
+  text-align:center;
+
+}
+
+.wrapper{
+    margin:0 auto;
+    position:relative;
+    width:95%;
+  }
